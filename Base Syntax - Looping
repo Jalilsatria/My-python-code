@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T03:55:25.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="kni5YfDDy7Z4imXDtURK" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T03:58:58.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="niHP8LT7VmWESNcv9Xpg" type="github">
   <diagram id="zx3cZT9MqWIjbmJgcniC" name="Page-1">
-    <mxGraphModel dx="503" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1006" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="90" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDWWv3JBQJdmsG_sq98T-2" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="90" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDWWv3JBQJdmsG_sq98T-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-3" target="eDWWv3JBQJdmsG_sq98T-6">
           <mxGeometry relative="1" as="geometry" />
@@ -39,17 +39,36 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-11" target="eDWWv3JBQJdmsG_sq98T-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eDWWv3JBQJdmsG_sq98T-11" value="&lt;b&gt;Jumlah yang dibaca == jumah buku?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="490" width="100" height="100" as="geometry" />
+          <mxGeometry x="100" y="520" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eDWWv3JBQJdmsG_sq98T-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-13" target="eDWWv3JBQJdmsG_sq98T-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eDWWv3JBQJdmsG_sq98T-13" value="Baca 1 buku yang belum dibaca" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="270" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eDWWv3JBQJdmsG_sq98T-16" value="jumlah buku yang dibaca = jumlah buku yang dibaca + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-11" target="eDWWv3JBQJdmsG_sq98T-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="490" as="sourcePoint" />
+            <mxPoint x="370" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="520" />
+              <mxPoint x="530" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-19" target="eDWWv3JBQJdmsG_sq98T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-19" value="Lapor ke ibu, bahwa semua buku telah dibaca" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
