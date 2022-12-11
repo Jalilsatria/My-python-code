@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T03:35:31.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="o8grYQyHEGFwwbNu6DLP" type="github"><diagram id="CM_Z04FrqzbdrRNEjDqJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-11T03:55:25.705Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="kni5YfDDy7Z4imXDtURK" type="github">
+  <diagram id="zx3cZT9MqWIjbmJgcniC" name="Page-1">
+    <mxGraphModel dx="503" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-1" target="eDWWv3JBQJdmsG_sq98T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-1" value="Mulai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-2" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-3" target="eDWWv3JBQJdmsG_sq98T-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-3" value="Jumlah buku = 10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-6" target="eDWWv3JBQJdmsG_sq98T-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-6" value="Perintah ibu, &quot;Baca semua bukumu&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-8" target="eDWWv3JBQJdmsG_sq98T-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-8" value="Jumlah buku yang dibaca = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-11" target="eDWWv3JBQJdmsG_sq98T-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eDWWv3JBQJdmsG_sq98T-14">
+          <mxGeometry x="-0.1738" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-11" value="&lt;b&gt;Jumlah yang dibaca == jumah buku?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eDWWv3JBQJdmsG_sq98T-13" target="eDWWv3JBQJdmsG_sq98T-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-13" value="Baca 1 buku yang belum dibaca" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eDWWv3JBQJdmsG_sq98T-16" value="jumlah buku yang dibaca = jumlah buku yang dibaca + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
