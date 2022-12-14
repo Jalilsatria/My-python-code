@@ -18,6 +18,7 @@ while books_read_count < books_count * 2:
         read_and_understood_count = read_and_understood_count + 1
         print(f"The order of reading and understanding the book is {read_and_understood_count}")
 
+
 if read_and_understood_count == books_count:
     print('Mom, All books can be read and understand')
 else:
