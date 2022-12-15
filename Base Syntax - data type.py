@@ -25,3 +25,48 @@ print('\nadd 1 new book')
 books_list.append('Atomic Habbit')
 for i in range (0, len(books_list)):
     print(books_list[i])
+
+print('\nClear list')
+books_list.clear()
+for i in range (0, len(books_list)):
+    print(books_list[i])
+
+print('\nChange the first elemen')
+books_list = ['Seven habits', 'How to Influence People', 'First Things First', 'Gwoth Mindset']
+books_list[0] = 'Fairy Tale'
+for i in range (0, len(books_list)):
+    print(books_list[i])
+
+print('\nTake the second element')
+taken_book = books_list.pop(1)
+for i in range (0, len(books_list)):
+    print(books_list[i])
+
+print('\nTaken book:')
+print(taken_book)
+
+print('\nPop') #take the last element
+books_list.pop()
+for i in range (0, len(books_list)):
+    print(books_list[i])
+
+print('\nPop -4') #take the last element
+books_list = ['Seven habits', 'How to Influence People', 'First Things First', 'Gwoth Mindset']
+books_list.pop(-4 )
+for i in range (0, len(books_list)):
+    print(books_list[i])
+
+print('\ndel function')
+books_list = ['Seven habits', 'How to Influence People', 'First Things First', 'Gwoth Mindset']
+del books_list[0]
+for i in range (0, len(books_list)):
+    print(books_list[i])
+
+
+print('\ndel function with list comprehension')
+books_list = ['Seven habits', 'How to Influence People', 'First Things First', 'Gwoth Mindset']
+del books_list[:]
+for i in range (0, len(books_list)):
+    print(books_list[i])
+
+
