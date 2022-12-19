@@ -56,17 +56,3 @@ books_list.pop(-4 )
 for i in range (0, len(books_list)):
     print(books_list[i])
 
-print('\ndel function')
-books_list = ['Seven habits', 'How to Influence People', 'First Things First', 'Gwoth Mindset']
-del books_list[0]
-for i in range (0, len(books_list)):
-    print(books_list[i])
-
-
-print('\ndel function with list comprehension')
-books_list = ['Seven habits', 'How to Influence People', 'First Things First', 'Gwoth Mindset']
-del books_list[:]
-for i in range (0, len(books_list)):
-    print(books_list[i])
-
-
